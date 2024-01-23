@@ -1,0 +1,442 @@
+body{
+    font-family: 'Manrope', sans-serif;
+    width: 100%;
+}
+
+.maindiv{
+    padding-left: 120px;
+    padding-right:120px;
+    margin: 0 auto;
+}
+
+/* header sections */
+
+.webName img{ 
+    width: 35px;
+    height: 35px;
+}
+
+.webName h1{
+    color: #131318;
+font-family: Manrope;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.webName span{
+    color: #FF4240;
+font-family: Manrope;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.menus{
+    color: #FF4240;
+text-align: center;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.searchs img{
+    width: 35px;
+    height: 35px;
+    
+}
+
+.getTicket{
+    border-radius: 8px;
+background-color: #FF4240;
+color: #FFF;
+text-align: center;
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.hide{
+    display: none;
+}
+
+
+/* banner sections */
+
+.sliderBoxs{
+    border-radius: 16px;
+background: #131318;
+display: inline-flex;
+padding: 32px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+position: absolute;
+width: 40%;
+margin-top: 450px;
+margin-left: -600px;
+}
+
+.sliderBoxs h2{
+    color: #FFF;
+
+font-family: Manrope;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.sliderBoxs p{
+    color: rgba(255, 255, 255, 0.60);
+
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+}
+
+/* LineOne */
+
+.lineOne{
+    width: 100%;
+    height: 2px;
+    background: rgba(19, 19, 24, 0.20);
+    margin: 0 auto;
+    margin-top: 174px;
+}
+
+
+
+/* SecOne */
+
+.secOne{
+    width: 100%;
+    padding: 20px;
+}
+
+
+.secOne h1{
+    color: #131318;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+
+.secOne p{
+    color: rgba(19, 19, 24, 0.60);
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+}
+
+.lineTwo{
+    width: 100%;
+    height: 2px;
+    background: rgba(19, 19, 24, 0.20);
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+/* Sections Two  */
+
+.secTwo h1
+{
+    color: #131318;
+
+text-align: center;
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.secTwo p{
+    color: rgba(19, 19, 24, 0.60);
+
+text-align: center;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.proOne div{
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+
+.proTwo div{
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+
+.proThree div{
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+
+.proFour div{
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+
+
+
+
+/* secThree */
+
+.secThree{
+    width: 100%;
+    padding: 20px;
+}
+
+
+.secThree h1{
+    color: #131318;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+
+.secThree p{
+    color: rgba(19, 19, 24, 0.60);
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive moblie */
+
+@media screen and (max-width: 600px) {
+
+    .maindiv{
+        padding-left: 20px;
+        padding-right:20px;
+        margin: 0 auto;
+    }
+
+    /* header sections */
+
+    .webName{
+        align-items: center;
+    }
+    .webName h1{
+        color: #131318;
+font-family: Manrope;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+    }
+
+    .webName img{
+        display: inline;
+    }
+
+    .menus{
+        visibility: hidden;
+    }
+
+    .searchs{
+        position: absolute;
+        margin-left: 268px;
+        align-items: center;
+    }
+
+    .menubars{
+        margin-left: -500px;
+    }
+
+    #buttons{
+        border-radius: 8px;
+        background: #FF4240;
+        display: inline-flex;
+padding: 8px 17px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+    }
+
+
+
+
+
+
+/* banner sections */
+
+.sliderBoxs{
+    display: flex;
+width: 90%;
+padding: 16px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+border-radius: 12px;
+background: #131318;
+margin: 0px;
+}
+
+.sliderBoxs h2{
+    color: #FFF;
+
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sliderBoxs p{
+    color: rgba(255, 255, 255, 0.60);
+
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+}
+
+
+/* lineOne */
+
+.lineOne{
+    width: 100%;
+    height: 2px;
+    background: rgba(19, 19, 24, 0.20);
+    margin: 0 auto;
+    margin-top: 174px;
+}
+
+
+/* secOne  */
+
+
+.secOne h1{
+    color: #131318;
+
+text-align: center;
+font-family: Manrope;
+font-size: 22px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.secOne p{
+    color: rgba(19, 19, 24, 0.60);
+
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+}
+
+
+
+/* section Two  */
+.secTwo{
+    flex-direction: column;
+}
+
+.proOne div{
+    margin-left: 130px;
+    margin-bottom: 30px;
+}
+
+.proTwo div{
+    margin-left: 130px;
+    margin-bottom: 30px;
+}
+
+.proThree div{
+    margin-left: 130px;
+    margin-bottom: 30px;
+}
+
+.proFour div{
+    margin-left: 130px;
+    margin-bottom: 30px;
+}
+
+/* secThree  */
+
+
+.secThree h1{
+    color: #131318;
+
+text-align: center;
+font-family: Manrope;
+font-size: 22px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.secThree p{
+    color: rgba(19, 19, 24, 0.60);
+
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+}
+
+
+
+
+
+}
