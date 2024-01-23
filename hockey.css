@@ -410,7 +410,7 @@ line-height: 26px; /* 144.444% */
 
 .clothBox {
     width: 49%;
-    height: 300px;
+    height: 500px;
     background-color: #f7f7f7;
     border-radius: 10px;
     align-items: center;
@@ -730,6 +730,7 @@ line-height: normal;
     width: 100%;
     padding: 0px;
     margin-bottom: 120px;
+    
 }
 
 .delivery{
@@ -759,5 +760,29 @@ line-height: normal;
 .comment{
     margin-right: 10px;
 }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
