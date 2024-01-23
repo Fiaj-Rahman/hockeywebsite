@@ -240,7 +240,128 @@ line-height: 26px; /* 162.5% */
 }
 
 
+/* section four  */
+.secFour{
+    width: 100%;
+    height: 300px;
+}
+.fourOne{
+    background-image: url("./Images/2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
 
+.fourTwo{
+    background-image: url("./Images/3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.fourThree{
+    background-image: url("./Images/4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.fourOne h1{
+    color: #FFF;
+    margin-top: 60px;
+    font-family: Manrope;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.fourOne p{
+
+    color: #FFF;
+
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+}
+
+
+
+.fourTwo{
+    background-image: url("./Images/2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+.fourTwo h1{
+    color: #FFF;
+    margin-top: 60px;
+    font-family: Manrope;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.fourTwo p{
+
+    color: #FFF;
+
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+}
+
+
+
+.fourThree{
+    background-image: url("./Images/2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+.fourThree h1{
+    color: #FFF;
+    margin-top: 80px;
+    font-family: Manrope;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.fourThree p{
+
+    color: #FFF;
+
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+}
+
+
+/* .sections Five  */
+
+.secFive{
+    width: 100%;
+    height: 300px;
+    
+}
 
 
 
@@ -415,7 +536,7 @@ line-height: normal;
 
 .secThree h1{
     color: #131318;
-
+margin-top: 0px;
 text-align: center;
 font-family: Manrope;
 font-size: 22px;
@@ -436,7 +557,19 @@ line-height: normal;
 }
 
 
+/* section four  */
 
+.secFour{
+    flex-direction: column;
+}
 
+.secFive{
+    margin-top: 325px;
+    
+}
+
+.secFive h1{
+    margin: 0px;
+}
 
 }
