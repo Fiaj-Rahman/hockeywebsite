@@ -11,7 +11,14 @@ body{
 }
 
 /* header sections */
+.headers{
+    width: 100%;
+}
 
+
+.searchdiv{
+    margin: 75px;
+}
 .webName img{ 
     width: 35px;
     height: 35px;
@@ -35,7 +42,26 @@ font-weight: 800;
 line-height: normal;
 }
 
-.menus{
+/* menubar  */
+
+.menudiv li,a{
+    color: #FF4240;
+
+text-align: center;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.hambermenu{
+    display: none;
+}
+
+
+
+/* .menus{
     color: #FF4240;
 text-align: center;
 font-family: Manrope;
@@ -43,6 +69,11 @@ font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+} */
+
+.searchs{
+    margin-left: -20px;
+    position: relative;
 }
 
 .searchs img{
@@ -63,9 +94,9 @@ font-weight: 700;
 line-height: normal;
 }
 
-.hide{
+/* .hide{
     display: none;
-}
+} */
 
 
 /* banner sections */
@@ -80,7 +111,7 @@ align-items: flex-start;
 gap: 16px;
 position: absolute;
 width: 40%;
-margin-top: 450px;
+margin-top: 400px;
 margin-left: -600px;
 }
 
@@ -611,20 +642,20 @@ line-height: normal;
         display: inline;
     }
 
-        
+/*         
     .menus{
         visibility: hidden;
-    }
+    } */
 
     .searchs{
         position: absolute;
         margin-left: 268px;
         align-items: center;
     }
-
+/* 
     .menubars{
         margin-left: -500px;
-    }
+    } */
 
     #buttons{
         border-radius: 8px;
@@ -634,6 +665,10 @@ padding: 8px 17px;
 justify-content: center;
 align-items: center;
 gap: 10px;
+color: white;
+position: absolute;
+margin-left: -46px;
+padding: 0px 51px
     }
 
 
@@ -829,7 +864,7 @@ line-height: normal;
 
 
 .foot {
-    width: 390px;
+    width: 350px;
     background-color: #131318;
     padding: 0px;
     margin-top: 60px;
@@ -852,21 +887,28 @@ line-height: normal;
 
 }
 
+.menudiv{
+    display: none;
+}
+
 .searchbar{
     display: none;
 }
 
-.menubars{
-    display: none;
+
+.secFive{
+    margin-top: 360px;
+    position: relative;
 }
 
+
+
+
+
+
+
+
 }
-
-
-
-
-
-
 
 
 
